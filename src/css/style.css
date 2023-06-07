@@ -1,4 +1,7 @@
-
+.p {
+  text-align: center;
+  color: red;
+}
 .ABRIGO{
     display: flex;
     margin-left: 30%;
