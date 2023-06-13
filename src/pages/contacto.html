@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kingkel</title>
+    <title>KingKel® Log in | New Collection</title>
     <link rel="stylesheet" href="/css/boostrap/bootstrap.min origins.css">
     <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="icon" type="image/png" href="../Img/chaleco.jpg">
+    
   </head>
   <body class="fondo">
-
-
    <div class="bg-primary">
       <div class="container">
   
@@ -36,7 +36,7 @@
                     Quienes somos
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="contacto.html">Dejanos Un Comentario</a></li>
+                    <li><a class="dropdown-item" href="contacto.html">Iniciar Sesion</a></li>
                     <li><a class="dropdown-item" href="locales.html">Donde Nos Encuentras</a></li>
                     <li><hr class="dropdown-divider"></li>
                     
@@ -50,24 +50,40 @@
         </nav>
       </div>
     </div>
-    <form id="Formulario">
-     <section class="form-register">
-       <h4>Formulario De Comentario</h4>
-       <input class="controls" type="text" name="Nombre" id="Nombres" placeholder="Ingrese su Nombre">
-       <input class="controls" type="text" name="Nombre" id="Apellidos" placeholder="Ingrese su Apellido">
-       <input class="controls" type="text" name="Nombre" id="Comentario" placeholder="Ingrese su Comentario">
-       <input class="controls" type="email" name="email" id="Correo" placeholder="Ingrese su Correo">
-       <input class="controls" type="passwoard" name="email" id="Correo" placeholder="Ingrese su contraseña">
-       <p> Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
-         <input class="botons" type="submit" value="Regsitrar">
-        <p><a href="#">¿Ya tengo cuenta?</a></p>
-     </section>
-   </form>
-
-
-
-    
-  <footer>
+    <section class="formulario ">
+      <div class="form-box">
+        <div class="form-value">
+          <form action="">
+            <h2>Ingresar</h2>
+            <div class="inputbox">
+              <ion-icon name="mail-outline"></ion-icon>
+              <input type="email" required>
+              <label for="">Correo electronico</label>
+            </div>
+            <div class="inputbox">
+              <ion-icon name="lock-closed-outline"></ion-icon>
+              <input type="password" required>
+              <label for="">Contraseña</label>
+            </div>
+            <div class="inputbox">
+              <ion-icon name="document-text-outline"></ion-icon>
+              <input type="Comentario" required>
+              <label for="">Comentario</label>
+            </div>
+            <div class="forget">
+              <label for=""><input type="checkbox">Recordar <a href="#">¿Has olvidado tu contraseña?</a></label>
+            </div>
+            <button>Acceder</button>
+            <div class="register">
+              <p>¿Necesitas una cuenta? <a href="#">Registrarse</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <footer class="row justify-content-center">
       &copy; 2023 Kingkel. Todos los derechos reservados.   
    </footer>
 
