@@ -3323,6 +3323,7 @@ fieldset:disabled .btn {
   white-space: nowrap;
   background-color: transparent;
   border: 0;
+  color: white;
 }
 .dropdown-item:focus,
 .dropdown-item:hover {
@@ -3629,6 +3630,7 @@ fieldset:disabled .btn {
 }
 .navbar-nav .dropdown-menu {
   position: static;
+  background-color: rgba( var(--bs-primary-rgb), var(--bs-bg-opacity) ) !important;
 }
 .navbar-text {
   padding-top: 0.5rem;
