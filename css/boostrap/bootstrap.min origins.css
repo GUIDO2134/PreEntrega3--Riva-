@@ -3108,8 +3108,7 @@ fieldset:disabled .btn {
   --bs-dropdown-divider-margin-y: 0.5rem;
   --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   --bs-dropdown-link-color: #1a1a1a;
-  --bs-dropdown-link-hover-color: #171717;
-  --bs-dropdown-link-hover-bg: #f7f7f9;
+  
   --bs-dropdown-link-active-color: #fff;
   --bs-dropdown-link-active-bg: #1a1a1a;
   --bs-dropdown-link-disabled-color: #adb5bd;
