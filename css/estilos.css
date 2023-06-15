@@ -363,6 +363,12 @@ input:valid ~ label {
   .card-fame1 .card-btn {
     display: none;
   }
+  .card-fame2 .card-info {
+    display: none;
+  }
+  .card-fame2 .card-btn2 {
+    display: none;
+  }
 }
 @media only screen and (max-width: 768px) {
   .form-value {
