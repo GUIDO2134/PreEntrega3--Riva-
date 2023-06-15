@@ -45,15 +45,18 @@ $card-bg:rgba(44, 40, 3, 0.301);
 }
 
 /* Hombres */
+
 .hombre {
   font-family: $card-font;
   display: flex;
   justify-content: left;
 }
-
-
-
-  
+.capucha-1 {
+  margin: 100px;
+  font-family: $card-font;
+  justify-content: center;
+  margin-left: 17%;
+}
 /*Mujer */
 .new-mujeres{
   margin: 50px;
@@ -157,7 +160,86 @@ $card-bg:rgba(44, 40, 3, 0.301);
       font-size: x-large;
     }
     p{
-      font-size: 14.3px;
+      font-size: 15px;
+    }
+    .title{
+      text-transform: capitalize;
+      font-size: 30px;
+      font-weight: 500;
+    }
+    .sub-title{
+      text-transform: capitalize;
+      font-size: 20 px;
+      font-weight: 300;
+    }
+    .info{
+      font-size: 16;
+      line-height: 25px;
+      margin: 40px 0;
+      font-weight: 400;
+  
+    }
+  }
+
+}
+
+.card-fame2{
+  margin-bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 2px solid #000;
+  position: relative;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  .card-btn2{
+    color: #fff;
+    background: rgb(133, 130, 130);
+    padding: 10px 20px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  &:hover .card-fame2{
+    right: 0%;
+  
+  }
+  .card-fame2{
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 270px;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    right: -100%;
+    position: absolute;
+    background: rgba(80, 72, 72, 0.411);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color:#fdfdfd;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
+    h1{
+      margin-top: px;
+      color: #fff;
+      font-size: x-large;
+    }
+    p{
+      font-size: 17px;
     }
     .title{
       text-transform: capitalize;
@@ -192,7 +274,6 @@ $card-bg:rgba(44, 40, 3, 0.301);
 }
 .form-box{
   position: relative;
-  height: 450px;
   background:#ffffff;
   display: flex;
   justify-content: left;
