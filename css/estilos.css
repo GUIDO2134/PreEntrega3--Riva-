@@ -39,7 +39,55 @@
   margin: 100px;
 }
 
+/*Inicio*/
 /* Hombres */
+.card {
+  border: 1px solid #000;
+}
+
+.card-blazer {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #000;
+  position: relative;
+  width: 100%;
+  height: 96%;
+}
+.card-blazer .card-sub-title2 {
+  text-align: center;
+  margin-top: 40px;
+}
+.card-blazer h1 {
+  font-size: 40px;
+  margin-top: 120px;
+}
+.card-blazer h4 {
+  font-size: 30px;
+}
+.card-blazer .card-info2 {
+  font-size: 20px;
+  text-align: left;
+  margin: 7px;
+  margin-top: 80px;
+}
+.card-blazer .card-btn2 {
+  color: #000;
+  background: #a19e9e;
+  padding: 10px 20px;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
 .hombre {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   display: flex;
