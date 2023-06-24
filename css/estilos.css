@@ -443,7 +443,7 @@ input:valid ~ label {
     display: none;
   }
 }
-@media all and (max-width: 1880px) and (min-width: 610px) {
+@media all and (max-width: 2000px) and (min-width: 610px) {
   .card-1 h2 {
     display: none;
   }
